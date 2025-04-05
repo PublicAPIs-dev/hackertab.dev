@@ -1752,12 +1752,12 @@
     "@svgr/hast-util-to-babel-ast" "8.0.0"
     svg-parser "^2.0.4"
 
-"@tanstack/query-async-storage-persister@^5.8.3":
-  version "5.14.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-async-storage-persister/-/query-async-storage-persister-5.14.1.tgz#71666d5be8eba5c09eaebed56918e6df2117a69e"
-  integrity sha512-I+k80K5toKnyB2KLn2A4e6k9GiCIeIcDJBLDacCWxSQKW7K8vbSILNnqO8r8BauvqqbDM+1hE3aThHRgkJLfgw==
+"@tanstack/query-async-storage-persister@^5.68.0":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-async-storage-persister/-/query-async-storage-persister-5.71.10.tgz#a8ac7c6bcf8ae9a825879736b7481ca077bf703e"
+  integrity sha512-f1xLHwWciANf15zjvLXl368OnisFOi+AAmlF17EJSiMK3JzMqb86MEILQoOzbOeIgfDUiu56m6kFxYEFVI+zrw==
   dependencies:
-    "@tanstack/query-persist-client-core" "5.14.1"
+    "@tanstack/query-persist-client-core" "5.71.10"
 
 "@tanstack/query-core@4.36.1":
   version "4.36.1"
@@ -1769,12 +1769,24 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.14.1.tgz#4f7df092127124fdd2797cbd70ea469f878c12c5"
   integrity sha512-TlZarySCVEiap4K7BCvrsYZnX7jBbEkR55YMrk8ELcRbuAx6ydL+qoxqUt8Fq8VMvQyGt52icn6T7eJL1Q35KQ==
 
+"@tanstack/query-core@5.71.10":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.71.10.tgz#1f2dc5abf595156e7d9c5d6e4f47e805a7083c30"
+  integrity sha512-/fKEY8fO1nbszfrBatzmhJa1nEwIKn0c6Tv2A1ocSA5OiD2GukOIV8nnBbvJRgZb/VIoBy9/N4PVbABI8YQLow==
+
 "@tanstack/query-persist-client-core@5.14.1":
   version "5.14.1"
   resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.14.1.tgz#184a19e7ac1203c7cf5a1690c5310ecc47ad50ab"
   integrity sha512-bFvCW6MKI1lHUACiQwRYa4HwMh7lz2C9QJ84S/2p6uATml6Dycq3mysWWMs2nKmqLmO9uP37+FmSrtSN6KjhmA==
   dependencies:
     "@tanstack/query-core" "5.14.1"
+
+"@tanstack/query-persist-client-core@5.71.10":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.71.10.tgz#117468ced853b8d6755fda5d3417a96ecfab9683"
+  integrity sha512-GVYWTBIVCOzIv0B1Kj9kyVO7bVAgShSrmQYNZ+AubDqXC7FEl36Bp1OcByyqhLOF12NsrJ9us14g1+UsyKApsw==
+  dependencies:
+    "@tanstack/query-core" "5.71.10"
 
 "@tanstack/react-query-persist-client@^5.8.4":
   version "5.14.1"
