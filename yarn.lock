@@ -1769,6 +1769,11 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.14.1.tgz#4f7df092127124fdd2797cbd70ea469f878c12c5"
   integrity sha512-TlZarySCVEiap4K7BCvrsYZnX7jBbEkR55YMrk8ELcRbuAx6ydL+qoxqUt8Fq8VMvQyGt52icn6T7eJL1Q35KQ==
 
+"@tanstack/query-core@5.71.10":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.71.10.tgz#1f2dc5abf595156e7d9c5d6e4f47e805a7083c30"
+  integrity sha512-/fKEY8fO1nbszfrBatzmhJa1nEwIKn0c6Tv2A1ocSA5OiD2GukOIV8nnBbvJRgZb/VIoBy9/N4PVbABI8YQLow==
+
 "@tanstack/query-persist-client-core@5.14.1":
   version "5.14.1"
   resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.14.1.tgz#184a19e7ac1203c7cf5a1690c5310ecc47ad50ab"
@@ -1776,12 +1781,19 @@
   dependencies:
     "@tanstack/query-core" "5.14.1"
 
-"@tanstack/react-query-persist-client@^5.8.4":
-  version "5.14.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.14.1.tgz#efffb383e282b8cc7d5cf1edae01d27b6e21cd41"
-  integrity sha512-USe/6mpqLtXwCEo+b7PqQBEUhS6dUMDdB0p/oBhpzugY1XFY2w8QVn2bwYXMpo0zq2ckWYFjqn1ZTBGK/Inytw==
+"@tanstack/query-persist-client-core@5.71.10":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.71.10.tgz#117468ced853b8d6755fda5d3417a96ecfab9683"
+  integrity sha512-GVYWTBIVCOzIv0B1Kj9kyVO7bVAgShSrmQYNZ+AubDqXC7FEl36Bp1OcByyqhLOF12NsrJ9us14g1+UsyKApsw==
   dependencies:
-    "@tanstack/query-persist-client-core" "5.14.1"
+    "@tanstack/query-core" "5.71.10"
+
+"@tanstack/react-query-persist-client@^5.68.0":
+  version "5.71.10"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.71.10.tgz#af815d996b7151ac5e6a95c22a16f39f2f7938a5"
+  integrity sha512-Q1oBHbSieLsg2ZggZwtFqHmdNMulvfClq9zUyGOIJD0Wjk/wEzyzzcIfVouMDTlqYa/O1xlwAtUZXub+RxD6Lg==
+  dependencies:
+    "@tanstack/query-persist-client-core" "5.71.10"
 
 "@tanstack/react-query@^4.13.0":
   version "4.36.1"
