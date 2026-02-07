@@ -14,7 +14,7 @@
     "country-emoji": "^1.5.4",
     "dompurify": "^2.2.7",
     "htmlparser2": "^8.0.1",
-    "jsonpath": "^1.1.1",
+    "jsonpath": "^1.2.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.0.0-0",
     "react": "^17.0.1",
